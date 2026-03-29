@@ -12,11 +12,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 替换 actions/checkout@v3
-      - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3
+      - uses: actions/checkout@v3
       
-      # 替换 Platane/snk/svg-only@v3
-      - uses: Platane/snk/svg-only@9811467406a4a1599388147d3d1964264bc8071e
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -25,8 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      # 替换 peaceiris/actions-gh-pages@v3
-      - uses: peaceiris/actions-gh-pages@373f7f263a76c20853900729571447072f818319
+      - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
