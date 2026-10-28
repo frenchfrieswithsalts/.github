@@ -1,3 +1,5 @@
+You can call me frenchfries , i love macdonald and taco bell 
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/frenchfrieswithsalts/.github/blob/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/frenchfrieswithsalts/.github/blob/output/github-contribution-grid-snake.svg">
